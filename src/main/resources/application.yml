@@ -4,4 +4,4 @@ spring:
   profiles:
     active: dev
   config:
-     import: optional:configserver:http://configuser:configPass$1234@localhost:8888
+     import: optional:configserver:https://azurespringbootdevlearning-ffarczc7awamaqfu.eastus-01.azurewebsites.net
